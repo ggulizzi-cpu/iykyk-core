@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talk to Romie</title>
+    <style>
+        /* Full-screen background */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff; /* Change this if you want a different background */
+        }
+        /* Make the widget full-screen */
+        elevenlabs-convai {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h2>Talk to Romie</h2>
     <elevenlabs-convai agent-id="jCuyJ5t2xIr98zRtyc3l"></elevenlabs-convai>
     <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </body>
